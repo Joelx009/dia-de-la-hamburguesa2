@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #1a1a1a; 
+    background-image: url('../img/pollito2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white; 
+    padding: 10px; 
+}
+header h1 { 
+    background-color: #ff0000; 
+    color: #ffd700; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px; 
+    /* Borde: Negro Carbón */
+    border: 3px solid #000000; 
+    /* Sombra para resaltar el encabezado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}
+nav {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+nav a, footer a { 
+    background-color: #b30000; 
+    color: white;
+    padding: 10px 15px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px; 
+    margin: 0 5px; 
+    transition: background-color 0.3s, transform 0.2s; 
+}
+
+nav a:hover, nav a:active {
+
+    background-color: #ffd700;
+
+    color: #000000;
+
+    transform: scale(1.05); 
+}
+
+section {
+    max-width: 900px; 
+    margin: 0 auto; 
+    padding: 10px;
+
+    background-color: rgba(0, 0, 0, 0.75); 
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.6); 
+}
+article {
+    padding: 20px;
+    margin-bottom: 25px; 
+    background-color: white; 
+    color: #333; 
+    border-left: 5px solid #ffd700; 
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+article h3 { 
+    /* Color: Rojo Fuego */
+    color: #ff0000; 
+    padding: 5px 0;
+    margin-bottom: 15px;
+    /* Separador: Amarillo Brillante */
+    border-bottom: 2px solid #ffd700; 
+}
+p {
+    color: #333; 
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+footer {
+    /* Fondo: Rojo Fuego */
+    background-color: #ff0000;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    border-top: 5px solid #000000; 
+}
+footer a {
+    display: block; 
+    background-color: transparent; 
+    color: #ffd700;
+    text-decoration: underline;
+    padding: 5px;
+}
+
+footer a:hover {
+    color: white;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    
+    max-width: 600px; 
+    margin: 30px auto; 
+    padding: 15px;
+    background-color: #ffd700; 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /
+}
+.contenedor img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    border: 3px solid #ff0000; 
+}
+.descripcion {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ff0000;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.8); 
+    border-radius: 5px;
+}
